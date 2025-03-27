@@ -110,8 +110,7 @@ If our work is useful for your research, please consider citing:
 ```Bibtex
 @inproceedings{wu2025ortrack,
   title={Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking},
-  author={Ye, Botao and Chang, Hong and Ma, Bingpeng and Shan, Shiguang and Chen, Xilin},
-  Wu, You and Wang, Xucheng and Yang, Xiangyang and Liu, Mengyuan and Zeng, Dan and Ye, Hengzhou and Li, Shuiwang
+  author={Wu, You and Wang, Xucheng and Yang, Xiangyang and Liu, Mengyuan and Zeng, Dan and Ye, Hengzhou and Li, Shuiwang},
   booktitle={CVPR},
   year={2025}
 }
