@@ -1,5 +1,5 @@
 # ORTrack
-The official implementation for the **CVPR 2025** paper [[**Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking**]([https://cvpr.thecvf.com/virtual/2025/poster/33552)]
+The official implementation for the **CVPR 2024** paper [ [**Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking**](https://cvpr.thecvf.com/virtual/2025/poster/33552) ]
 
 [Models & Raw Results](https://pan.baidu.com/s/1Ym4J1b5RzyqvcEgNFyeX1A?pwd=cvpr) Baidu Driver [Models & Raw Results](https://drive.google.com/drive/folders/1pXq5HHezldjOyFCj6DUrXl5H8r4KiGv3?usp=sharing) Google Driver
 
@@ -65,6 +65,10 @@ Download pre-trained [DeiT-Tiny weights](https://dl.fbaipublicfiles.com/deit/dei
 ```
 # Training ORTrack-DeiT
 python tracking/train.py --script ortrack --config deit_tiny_patch16_224  --save_dir ./output --mode single
+
+# Training ORTrack-D-DeiT
+# You need to download the model weight of ORTrack-DeiT and place them under the directory $PROJECT_ROOT$/teacher_model/deit_tiny_patch16_224.
+python tracking/train.py --script ortrack --config deit_tiny_distilled_patch16_224  --save_dir ./output --mode single
 ```
 
 
