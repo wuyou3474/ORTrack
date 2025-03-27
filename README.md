@@ -68,7 +68,7 @@ python tracking/train.py --script ortrack --config deit_tiny_patch16_224  --save
 
 # Training ORTrack-D-DeiT
 # You need to download the model weight of ORTrack-DeiT and place them under the directory $PROJECT_ROOT$/teacher_model/deit_tiny_patch16_224.
-python tracking/train.py --script avtrack --config deit_tiny_distilled_patch16_224  --save_dir ./output --mode single
+python tracking/train.py --script ortrack --config deit_tiny_distilled_patch16_224  --save_dir ./output --mode single
 ```
 
 
