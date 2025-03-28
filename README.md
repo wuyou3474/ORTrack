@@ -20,7 +20,7 @@ conda activate ORTrack
 
 Install the required packages:
 ```
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 ## Data Preparation
