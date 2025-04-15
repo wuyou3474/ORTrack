@@ -1,5 +1,5 @@
 # ORTrack
-The official implementation for the **CVPR 2025** paper [ [**Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking**](https://cvpr.thecvf.com/virtual/2025/poster/33552) ]
+The official implementation for the **CVPR 2025** paper [ [**Learning Occlusion-Robust Vision Transformers for Real-Time UAV Tracking**](https://arxiv.org/pdf/2504.09228) ]
 
 [Models & Raw Results](https://pan.baidu.com/s/1Ym4J1b5RzyqvcEgNFyeX1A?pwd=cvpr) Baidu Driver [Models & Raw Results](https://drive.google.com/drive/folders/1pXq5HHezldjOyFCj6DUrXl5H8r4KiGv3?usp=sharing) Google Driver
 
